@@ -33,7 +33,7 @@ module.exports = function(app) {
       }
     }
 
-    friendsData.push(match);
+    friendsData.push(userData);
 
     res.json(match);
   });
