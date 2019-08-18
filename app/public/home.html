@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-left">
+          <span class="fa fa-fire"></span> Friend Finder
+        </h1>
+        <hr />
+        <h2 class="text-left">Answer a few basic questions.</h2>
+        <h2 class="text-left">
+          Then find a friend with the greatest compatibility!
+        </h2>
+        <br />
 
-        <div class="jumbotron">
-            <h1 class="text-left"><span class="fa fa-fire"></span> Friend Finder</h1>
-            <hr>
-            <h2 class="text-left">Answer a few basic questions.</h2>
-            <h2 class="text-left">Then find a friend with the greatest compatibility!</h2>
-            <br>
-
-            <div class="text-left">
-                <a href="/survey"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> Go To Survey </button></a>
-            </div>
-
+        <div class="text-left">
+          <a href="/survey"
+            ><button class="btn btn-lg btn-primary">
+              <span class="fa fa-list-alt"></span> Go To Survey
+            </button></a
+          >
         </div>
+      </div>
 
-        <footer class="footer">
-            <div class="container">
-                <p><a href="/api/friends">API Friends List</a></p>
-            </div>
-        </footer>
+      <footer class="footer">
+        <div class="container">
+          <p>
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/be-cool/friend-finder">GitHub Repo</a>
+          </p>
+        </div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
