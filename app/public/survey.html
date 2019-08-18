@@ -96,9 +96,7 @@
 
       <div class="form-group col-md-4">
         <h4>Question 5</h4>
-        <label for="question5"
-          >People can rarely upset you.</label
-        >
+        <label for="question5">People can rarely upset you.</label>
         <select class="form-control" id="question5">
           <option>1</option>
           <option>2</option>
@@ -256,14 +254,15 @@
               isValid = false;
             }
           });
-
           $(".chosen-select").each(function() {
-            if ($(this).val() === "") {
-              isValid = false;
-            }
+
+           if ($(this).val() === "") {
+             isValid = false;
+             }
           });
-          return isValid;
-        }
+             return isValid;
+             }
+
         if (validateForm()) {
           var userData = {
             name: $("#name").val(),

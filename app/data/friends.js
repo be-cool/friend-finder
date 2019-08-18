@@ -3,7 +3,7 @@
 var friendsArray = [
     {
         name: "Ben",
-        photo: "",
+        photo: "https://pbs.twimg.com/profile_images/669162305104584704/pj-vRCor_400x400.jpg",
         scores: 
         [
             "5",
@@ -20,7 +20,7 @@ var friendsArray = [
     },
     {
         name: "Davis",
-        photo: "",
+        photo: "https://gwsports.com/images/2018/8/28/Davis.jpg?width=300",
         scores: 
         [
             "3",
@@ -37,7 +37,7 @@ var friendsArray = [
     },
     {
         name: "Chris",
-        photo: "",
+        photo: "https://d1qb2nb5cznatu.cloudfront.net/users/1126753-large?1480537872",
         scores: 
         [
             "1",
@@ -54,7 +54,7 @@ var friendsArray = [
     },
     {
         name: "Shelby",
-        photo: "",
+        photo: "https://archinect.imgix.net/uploads/8v/8vx8hj4nmib06x3h.jpg?fit=crop&auto=compress%2Cformat&w=300",
         scores: 
         [
             "4",
